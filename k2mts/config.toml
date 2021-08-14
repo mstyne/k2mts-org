@@ -1,0 +1,5 @@
+baseURL = 'https://k2mts.org/'
+languageCode = 'en-us'
+title = 'k2mts dot org'
+theme = "ananke"
+publishdir = "../"
