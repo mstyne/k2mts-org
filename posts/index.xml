@@ -8,12 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Aug 2021 15:13:43 -0400</lastBuildDate><atom:link href="https://k2mts.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>https://k2mts.org/posts/my-first-post/</link>
+      <title>k2mts.org, Back Again</title>
+      <link>https://k2mts.org/posts/website-returns/</link>
       <pubDate>Sat, 14 Aug 2021 15:13:43 -0400</pubDate>
       
-      <guid>https://k2mts.org/posts/my-first-post/</guid>
-      <description>And we&amp;rsquo;re back!</description>
+      <guid>https://k2mts.org/posts/website-returns/</guid>
+      <description>The website is back again. Maybe I&amp;rsquo;ll actually put some useful content out into the world? Unlikely.</description>
+    </item>
+    
+    <item>
+      <title>QRV 2017</title>
+      <link>https://k2mts.org/posts/qrv-2017/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://k2mts.org/posts/qrv-2017/</guid>
+      <description>A new to me RigExpert revealed that the end fed dipole I have been using was woefully out of tune. A perfect storm of enthusiasm, inability to RTFM, and a lack of proper test equipment led to it being installed with a very high SWR on 10 and 20 meters, and well, we won&amp;rsquo;t talk about 40 meters. At my first opportunity, I downloaded a copy of the instructions and read up on how to properly tune the antenna.</description>
     </item>
     
   </channel>
