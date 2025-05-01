@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Styne Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px; /* Adjusted max-width for two columns */
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            display: flex; /* Use Flexbox for the two-column layout */
+            flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+        }
+        .main-content {
+            flex: 2; /* Main content takes up more space */
+            padding-right: 30px; /* Space between main content and sidebar */
+        }
+        .skills-sidebar {
+            flex: 1; /* Skills sidebar takes up less space */
+        }
+        header h1 {
+            color: #0056b3;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        .contact-info {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .contact-info strong {
+            margin-right: 5px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        section h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .experience-item, .education-item {
+            margin-bottom: 20px;
+        }
+        .experience-item h3, .education-item h3 {
+            margin-bottom: 5px;
+            font-size: 1.1em;
+            color: #333;
+        }
+        .experience-item p, .education-item p {
+             margin: 5px 0;
+             font-style: italic;
+             color: #666;
+        }
+        .experience-item ul, .education-item ul, .awards-list, .interests-list {
+            list-style: disc;
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+        .skills-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list ul {
+            list-style: disc;
+            padding-left: 20px;
+            margin-top: 5px;
+            margin-bottom: 15px; /* Space between skill categories */
+        }
+         .skills-list strong {
+            display: block; /* Make category titles block elements */
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .awards-list li, .interests-list li {
+            margin-bottom: 5px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) { /* Adjust breakpoint as needed */
+            .container {
+                flex-direction: column; /* Stack columns on smaller screens */
+            }
+            .main-content {
+                padding-right: 0;
+                margin-bottom: 30px; /* Add space below main content when stacked */
+            }
+        }
+         @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .container {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 1.8em;
+            }
+            header p {
+                font-size: 1em;
+            }
+            section h2 {
+                font-size: 1.4em;
+            }
+        }
+
+        @media print {
+            //}
+    
+            /* Prevent a page break immediately after a heading */
+            h2 + * {
+                page-break-before: avoid;
+            }
+    
+            /* Ensure content within a section doesn't break awkwardly */
+            section {
+                 page-break-inside: avoid;
+            }
+        }
+	
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <header>
+                <h1>Michael Styne</h1>
+                <p>I'm an experienced Operations pro who enjoys tackling application and infrastructure deployment, security, and internal IT. I love using automation and new tech to make things run smoother for my team and our customers. Helping others learn and succeed is what I find most rewarding.</p>
+            </header>
+
+            <section class="contact-info">
+                <p><strong>Address:</strong> 29 Edgewood Dr, Averill Park, NY 12018</p>
+                <p><strong>Phone:</strong> 1 (518) 330 7592</p>
+                <p><strong>Email:</strong> mstyne@gmail.com</p>
+                <p><strong>Github:</strong> mstyne</p>
+            </section>
+
+            <section>
+                <h2>EXPERIENCE</h2>
+                <div class="experience-item">
+                    <h3>Ubersmith, New York, New York - Director of Operations (2003-PRESENT)</h3>
+                    <ul>
+                        <li>Manage application and infrastructure deployment, security, internal IT, and handle escalated customer support tasks.</li>
+                        <li>Containerized our legacy application and streamlined its installation and upgrade process, benefiting our entire customer base (100+) and allowing tasks to be completed in minutes.</li>
+                        <li>Served as a key escalation point for complex technical issues involving Linux, Apache, PHP, MySQL, Postfix, and Docker, ensuring clear customer communication and documentation of resolutions.</li>
+                        <li>Implemented and customized internal customer support and operations dashboards using Grafana to improve visibility and inform decision-making.</li>
+                        <li>Successfully led the company's efforts to achieve and maintain PA-DSS, PCI-SSLC, and PCI-SSF certifications, developing necessary documentation, policies, and processes.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h3>Voxel dot Net, Troy, New York - Senior System Admin (2003-2007)</h3>
+                    <ul>
+                        <li>Managed hosting infrastructure and provided direct customer support.</li>
+                        <li>My efforts towards the managed hosting product allowed it to grow significantly, as automating deployments removed many manual tasks.</li>
+                        <li>Voxel began as a very small company which was eventually acquired after several years of success and growth.</li>
+                        <li>Planned and executed a physical and virtual data center migration involving hundreds of servers.</li>
+                        <li>Coordinated the development of an unattended Windows installation tool to streamline server deployments.</li>
+                    </ul>
+                </div>
+                 <div class="experience-item">
+                    <h3>Jarad Broadcasting, Garden City, New York - On Air Talent (2002-2003)</h3>
+                    <ul>
+                        <li>On-air announcer/DJ for three different stations, each with their own unique music format.</li>
+                        <li>Assisted with on-location promotional events and provided audio engineering support for remote broadcasts.</li>
+                        <li>My time as a promotions staffer and DJ helped me work on my people skills and interacting with others.</li>
+                    </ul>
+                </div>
+                 <div class="experience-item">
+                    <h3>Bowne AE&T Group, Mineola, New York - IT Technician (1999-2001)</h3>
+                     <ul>
+                        <li>Coordinated with the Town of Oyster Bay, New York to assist with Year 2000 problem mitigation.</li>
+                        <li>This project required rolling out hardware and software across multiple locations.</li>
+                        <li>I learned how to work with large companies and municipalities, and the different approaches that are needed when it comes to those types of organizations.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2>EDUCATION</h2>
+                <div class="education-item">
+                    <h3>SUNY Binghamton, Vestal, New York - MS Computer Science (1998-2002)</h3>
+                    <ul>
+                        <li>Studied programming languages and hardware architectures.</li>
+                        <li>Served as the General Manager of the campus radio station.</li>
+                    </ul>
+                </div>
+            </section>
+
+             <section>
+                <h2>AWARDS</h2>
+                <ul class="awards-list">
+                    <li><strong>2017 Great Work Award:</strong> Annual performance award that recognizes exceptional work and impact.</li>
+                    <li><strong>2022 Lumine Yellow Belt - Maintenance & Support</strong></li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="skills-sidebar">
+             <section>
+                <h2>TECHNICAL SKILLS</h2>
+                <div class="skills-list">
+                    <strong>Cloud & Infrastructure:</strong>
+                    <ul>
+                        <li>Kubernetes</li>
+                        <li>Terraform</li>
+                        <li>AWS</li>
+                        <li>Google Cloud Platform</li>
+                        <li>DigitalOcean</li>
+                        <li>Linux/macOS Admin</li>
+                        <li>Helm</li>
+                        <li>Skaffold</li>
+                        <li>IAM</li>
+                    </ul>
+
+                    <strong>Automation & CI/CD:</strong>
+                    <ul>
+                        <li>Ansible</li>
+                        <li>CI/CD</li>
+                        <li>GitHub Admin</li>
+                        <li>JIRA</li>
+                        <li>ClickUp</li>
+                    </ul>
+
+                    <strong>Security:</strong>
+                    <ul>
+                        <li>PA/PCI-DSS</li>
+                        <li>CrowdStrike</li>
+                        <li>OpenVPN</li>
+                        <li>Duo</li>
+                        <li>Let's Encrypt</li>
+                        <li>1Password</li>
+                    </ul>
+
+                    <strong>Databases:</strong>
+                    <ul>
+                        <li>MySQL</li>
+                    </ul>
+
+                    <strong>Development/Scripting:</strong>
+                    <ul>
+                        <li>Python</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>INTERESTS</h2>
+                <ul class="interests-list">
+                    <li>Electronics - Amateur Radio (Amateur Extra License)</li>
+                    <li>Gardening - Cooking</li>
+                    <li>Space/Satellites - Baseball</li>
+                    <li>Aviation - Flight Simulation</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
